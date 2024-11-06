@@ -1,0 +1,15 @@
+@import url(./partial/reset/reset.css);
+@import url(./partial/color/color.css);/*# sourceMappingURL=style.css.map */
+@import url(./partial/font/font.css);
+header{
+    background-color: rgba(77, 77, 77, 0.473);
+    border: 5px ridge greenyellow;
+}
+div{
+    margin-left: 40em;
+}
+nav{
+    background-color: greenyellow;
+   border: 5px ridge black;
+
+}

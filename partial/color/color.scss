@@ -1,0 +1,35 @@
+$font-syze-standard: 1em;
+$font-syze-p: 1.5em;
+$font-size-h1: 3em;
+$width-standard: 150px;
+$margin: 2.5em;
+
+
+@mixin lot-button{
+    color: greenyellow;
+    border: 2px solid greenyellow;
+    background-color: black;
+    width: $width-standard;
+    box-shadow: 3cm black;
+    
+
+}
+@mixin button-two{
+    color: black;
+    border: 2px solid black;
+    background-color: greenyellow;
+    width: $width-standard;
+    margin: $margin;
+    cursor:pointer;
+
+}
+div button{
+    @include lot-button();
+font-size: $font-syze-standard;
+
+}
+.two{
+    @include button-two()
+    
+}
+

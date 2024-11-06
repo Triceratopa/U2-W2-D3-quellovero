@@ -1,0 +1,17 @@
+div button {
+  color: greenyellow;
+  border: 2px solid greenyellow;
+  background-color: black;
+  width: 150px;
+  box-shadow: 3cm black;
+  font-size: 1em;
+}
+
+.two {
+  color: black;
+  border: 2px solid black;
+  background-color: greenyellow;
+  width: 150px;
+  margin: 2.5em;
+  cursor: pointer;
+}/*# sourceMappingURL=color.css.map */
